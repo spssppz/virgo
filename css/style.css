@@ -806,6 +806,10 @@ body::after {
             align-items: center;
   }
 
+  .popup .callback__right {
+    width: 100%;
+  }
+
   .callback__image:not(:last-child) {
     margin-bottom: 0.1875rem;
   }
@@ -824,6 +828,7 @@ body::after {
     background: #fffdf6;
     padding: 1.4375rem 1rem 2.375rem;
     margin-bottom: 0;
+    width: 100%;
   }
 
   .left-callback__title {
