@@ -535,16 +535,16 @@ body::after {
           flex: auto;
 }
 
-.callback__right img {
+.popup .callback__image:not(:first-child) {
+  display: none;
+}
+
+.callback__image img {
   width: 100%;
   height: auto;
   -o-object-fit: cover;
      object-fit: cover;
   display: inline-block;
-}
-
-.popup .callback__right img:not(:first-child) {
-  display: none;
 }
 
 .left-callback {
@@ -676,7 +676,7 @@ body::after {
             flex: 0 0 31.5625rem;
   }
 
-  .callback__right img:not(:first-child) {
+  .callback__image:not(:first-child) {
     display: none;
   }
 
@@ -806,7 +806,7 @@ body::after {
             align-items: center;
   }
 
-  .callback__right img:not(:last-child) {
+  .callback__image:not(:last-child) {
     margin-bottom: 0.1875rem;
   }
 
